@@ -1,0 +1,16 @@
+.card {
+	width: 200px;
+	height: 300px;
+}
+
+.container {
+	display: block;
+}
+
+.book_name {
+	font-size: 15px;
+}
+
+.book_info {
+	font-size: 12px;
+}
