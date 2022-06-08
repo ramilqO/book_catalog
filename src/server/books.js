@@ -1,5 +1,4 @@
-{
-    "books":[
+const books = [
         {
             "isbn":"9781593279509",
             "title":"Eloquent JavaScript, Third Edition",
@@ -89,4 +88,6 @@
             "website":"https://doi.org/10.1007/978-1-4842-4221-6"
         }
     ]
-}
+
+export default books;
+

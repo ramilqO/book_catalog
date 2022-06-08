@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 
-import books from "./server/books.json";
+import books from "./server/books.js";
 import Card from "./components/Card/Card.js";
 
 export default function App() {
   return (
-    <div>
+    <div className="App">
       {books.map(book => 
             <Card
             name={book.title}
